@@ -1,6 +1,7 @@
 ## Functins to cache inverse of a matirx to save computations
 
-## Function to make a get special matrix and its inverse
+## Function to make a special matrix which stores matrix and its inverse and 
+## has methods get, set and getinverse and setinverse
 makeCacheMatrix <- function(x = matrix()) {
     inv <- matrix()
     set <- function(y) {
